@@ -1,0 +1,35 @@
+/* Todos los elementos con atributo class al valor "a" tendrán el texto en verde por ser de origen vegetal*/
+
+li[class="a"] {
+   color: green;
+}
+
+/* Todos los elementos que tengan el atributo class$="a" tendrán el texto de color rojo por ser de origen animal */
+
+li[class$="a"] {
+    color: red;
+    
+}
+/* Todos los elementos que tengan el atributo class^="b" tendrán el fondo del texto de color gris por ser precongelados */
+
+li[class^="b"] {
+    background-color: grey;
+}
+
+/* Todos los elementos que tengan el atributo class*="c" tendrán el fondo del texto de color naranja por ser precocinados */
+li[class*="c"] {
+    background-color: orange;
+}
+
+<h1> PISTO CON HUEVO </h1>
+<ul>
+    <li class="b a"> Pimiento verde </li>
+    <li class="b a"> Pimiento rojo </li>
+    <li class="b a "> Cebolla </li>
+    <li class="a"> Calabacín </li>
+    <li class="a"> Berenjena </li>
+    <li class="a c"> Tomate frito </li>
+    <li class=" ba"> Huevo </li>
+        
+</ul>
+
